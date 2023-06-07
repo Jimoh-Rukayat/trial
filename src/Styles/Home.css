@@ -615,12 +615,12 @@
 .apple-store, .play-store, .tele, .whatsapp{
     border-left: none;
     margin: 20px 30px;
-    font-size: 18px;
+    font-size: 15px;
 }
 .web{
     display: flex;
     color: #FFFF;
-    font-size: 18px;
+    font-size: 15px;
     margin: 40px ;
 }
 .apple-store p, .play-store p, .tele p, .whatsapp p, .web p{
@@ -685,9 +685,6 @@
     justify-content: space-around;
     align-items: center;
    padding-top: 50px;
-}
-.help{
-    font-size: 100px;
 }
 .logo-text{
     text-align: center;
