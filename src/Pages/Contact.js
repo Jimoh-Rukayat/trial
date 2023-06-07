@@ -67,7 +67,7 @@ const Contact = ()=>{
                     <p>Visit our frequently asked questions section here or make use our social media platforms to get in contact with us. Click on any of the social media icons to be redirected.</p>
                 </div>
             </div>
-            <div className="footer">
+            <div className="footer-contact">
             <div className="footer-text">
                 <div className='help'>
                     <h4>Main</h4>

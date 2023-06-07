@@ -133,6 +133,12 @@
     font-size: 16px;
     font-family: "Mulish";
 }
+.footer-contact{
+    height: 450px;
+    background-color: #00070F;
+    margin-top: 100px;
+    color: #FFFF;
+}
 @media screen and (max-width: 500px) {
     .contact-top{
         width: 100%;
