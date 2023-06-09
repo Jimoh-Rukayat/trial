@@ -15,6 +15,7 @@ const Login = ()=>{
                     <Link to='/'><div className="login-image"><img src={logo} alt={logo}/></div></Link>
                     <div><p>Don't have an account? Signup <Link to='/register'>here</Link></p></div>
             </div>
+            <div className="login-parent">
             <div className="login">
                 <div><h1>Login To Account</h1></div>
                 <form className="login-form">
@@ -24,8 +25,9 @@ const Login = ()=>{
                     <input type="password" />
                     <span className="login-eye"><BsEyeSlash/></span>
                     <a href="#">Forgot Password</a>
-                    <div className="reg-button"> <a>Login</a></div>
+                    <div className="reg-button-l"> <a>Login</a></div>
                 </form>
+            </div>
             </div>
             <div>
                 <img className="image-1" src={foot} alt={foot} />

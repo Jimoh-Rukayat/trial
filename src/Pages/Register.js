@@ -16,7 +16,8 @@ const Register = ()=>{
                     <Link to='/'><div className="register-image"><img src={logo} alt={logo}/></div></Link>
                     <div><p>Already have an account? Login <Link to='/login'>here</Link></p></div>
             </div>
-             <div className="register">
+            <div className="register-parent">
+            <div className="register">
                 <div><h1>Create An Account</h1></div>
                 <form>
                     <div className="names">
@@ -54,6 +55,7 @@ const Register = ()=>{
                     </div>
                     <div className="reg-button"> <a>Next</a></div>
                 </form>
+            </div>
             </div>
             <div>
                 <img className="image1" src={foot} alt={foot} />
