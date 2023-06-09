@@ -364,6 +364,368 @@
     padding: 30px 70px;    font-family: 'Mulish';
     font-weight: 400;
 }
+@media screen and (max-width: 780px) {
+    .top-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 20px;
+    }
+    .texts h1{
+        font-family: 'Clash Display Variable';
+        font-weight: 600;
+    }
+    .text-one img, .text-two img, .text-three img{
+        width: 100px;
+    }
+    .text-one{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 30px;
+        color: #002099; 
+    }
+    .text-two{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 30px;
+        color: #002099;
+    }
+    .text-three{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 40px;
+        color: #002099;   
+    }
+    .text-three-span button{
+        width: 100px;
+        background-color: #FFFFFF;
+        color: #676e82;
+        font-size: 15px;
+        border: 1px solid #676e82;
+        border-radius: 10px;
+        padding: 8px 8px;
+       font-family: 'Mulish';
+       margin-left: 10px;
+    }
+    .home-image{
+        display: none;
+    }
+    .para-text{
+        width: 100%;
+        margin: 50px 0px;
+        line-height: 2em;
+        font-size: 13px;
+    }
+    .para-text p{
+        font-family: 'Mulish';
+        color: #212529;
+        font-size: 18px;
+        font-weight: 400;
+        margin-left: 20px;
+    }
+    .home-register{
+        padding: 10px 10px;
+        width: 150px;
+        border-radius: 5px;
+        border: 2px solid  #002099;
+        font-size: 16px;
+        background-color: #002099;
+        color: #FFFF;
+        margin: 20px 10px;
+        font-family: "Mulish";
+        font-weight: 600
+    }
+    .home-login{
+        padding: 10px 10px;
+        width: 150px;
+        border-radius: 5px;
+        border: 1px solid #002099;
+        font-size: 16px;
+        background-color: #FFFF;
+        color: #002099;
+        margin-left: 0px;
+        font-family: "Mulish";
+        font-weight: 600;
+    }
+    .bottom-text{
+        width: 100%;
+        background-color: #002099;
+        height: 500px;
+        padding: 50px;
+        margin-top: 50px;
+    }
+    .inner-bottom{
+        width: 80%;
+        height: 400px;
+        background-color: #FFFF;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .symbols{
+        display: flex;
+        width: 80% ;
+        justify-content: space-around;
+        align-items: center;
+        font: "Clash Display Variable";
+    }
+    .symbol{
+        display: flex;
+        width: 75% ;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 10px;
+    }
+    .notebook, .heart, .dollar{
+        border-left: none;
+    }
+    .notebook, .heart, .past-que{
+        border-bottom: 3px solid #002099;
+        height: 53px;
+        text-align: center;
+    }
+    .notebook p, .heart p, .dollar p, .past-que p{
+        font-size: 13px;
+        font-family: 'Mulish', sans-serif;
+        margin-left: 40px;
+        color: #676e82;
+    }
+    .notebook h3, .heart h3, .dollar h3, .past-que h3{
+        color: #002099;
+    }
+    .reason h2{
+        text-align: center;
+        margin-top: 100px;
+        font: "Clash Display Variable";
+        font-weight: 600;
+        font-size: 25px;
+        color:  #0B2239;
+    }
+    .category{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 50px 0px 0px 0px;
+        color: #000513;
+        font-family: 'Mulish';
+    }
+    .category-text, .practise-text, .subject-text{
+        width: 100%;
+        font-family: 'Mulish';
+        margin-top: 50px;
+    }
+    .category-text h3, .subject-text h3, .practise-text h3{
+        font-size: 35px;
+        font-family: 'Mulish';
+        font-weight: 500;
+        margin-left: 30px;
+    }
+    .category-text p, .subject-text p, .practise-text p{
+        padding-top: 10px;
+        line-height: 1.5em;
+        font-size: 15px;
+        font-family: 'Mulish';
+        color: #000513;
+        font-weight: 500;
+        margin-left: 30px;
+    }
+    .subject img, .category img{
+        width: 90%;
+       margin-left: 20px;
+    }
+    .subject{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 50px 0px 0px 0px;
+        font-family: 'Mulish';
+        font-size: 30px;
+    }
+    .practise{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 50px 0px 0px 0px;
+        font-family: 'Mulish';
+    }
+    .line{
+        border-bottom: 1px solid #5c5c5c;
+        width: 20%;
+        margin: 20px 30px;
+}
+.bottom-texts{
+    width: 100%;
+    background-color: #002099;
+    height: 900px;
+    padding: 30px;  
+    margin-top: 100px;
+}
+.bottom-texts h1{
+    color: #FFFF;
+     text-align: center;
+     margin-bottom: 20px;
+     font-family: 'Clash Display Variable';
+     font-weight: 500;
+     padding: 30px;
+ }
+ .in-bottom-text{
+     width: 70%;
+     height: 600px;
+     border-radius: 20px;
+     background-color: #1D3797;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     align-items: center;
+     margin: 0 auto;
+     color: #FFFF;
+     font-size: 20px;
+ }
+ .in-bottom-text p{
+     font-family: 'Clash Display Variable';
+     font-weight: 500;
+ }
+ .text-icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.text-icons a{
+    line-height: normal;
+    text-align: end;
+    color: #FFFF;
+    font-size: 15px;
+    text-decoration: underline;
+    padding-bottom: 25px;
+}
+.apple-store, .play-store, .tele, .whatsapp{
+    border-left: none;
+    margin: 20px 30px;
+    font-size: 18px;
+}
+.aaa{
+    margin-top: 10px;
+}
+.web{
+    display: flex;
+    color: #FFFF;
+    font-size: 18px;
+    margin: 40px ;
+}
+.apple-store p, .play-store p, .tele p, .whatsapp p, .web p{
+        margin-left: 15px;
+}
+.apple-store a, .play-store a, .tele a, .whatsapp a, .web a{
+     font-size: 12px;
+     text-align: start;
+     margin-left: 15px;
+}
+.apple-store, .play-store, .tele, .web{
+    border-bottom: 4px solid #FFFF;
+    height: 900px; 
+    margin: 20px 50px;
+}
+.examsAfrica{
+    text-align: center;
+    margin-top: 100px;
+}
+.examsAfrica h1{
+    width: 80%;
+    padding-bottom: 10px;
+    color: #0b2239;
+    font-size: 30px;
+    font-family: 'Clash Display Variable';
+    font-weight: 620;
+    margin-left: 50px;
+}
+.examsAfrica p{
+    color: #212529;
+    font-family: 'Mulsih';
+    font-size: 18px;
+    margin-left: 30px;
+}
+.nice img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+   margin-left: 40px;
+    position: relative;
+    top: 50px;
+}
+.nice-video{
+    position: relative;
+    left: 150px;
+    right: 0;
+    bottom: 100px;
+    font-size: 15px;
+    color: #FFFF;
+    font-weight: 500;
+    font-family: "Mulish";
+    border: 1px solid;
+    text-align: center;
+    width: 200px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.footer{
+    height: 550px;
+    background-color: #00070F;
+    margin-top: 30px;
+    color: #FFFF;
+    margin-top: 100px;
+}
+.footer-text{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   padding-top: 50px;
+}
+.logo-text{
+    text-align: center;
+    margin-top: 50px;
+    top: 50px;
+ }
+ .logo-text p{
+     width: 90%;
+     margin-left: 20px;
+     line-height: 1.5em;
+     font-family: 'Mulish';
+     font-size: 16px;
+ }
+ .socials{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0px;
+    
+}
+.linked, .twitter, .face, .insta{
+    border: 2px solid;
+    border-radius: 500px;
+    padding: 5px;
+    font-size: 15px;
+    height: 30px;
+    margin-left: 70px;
+}
+.copyright{
+    background-color: #002099;
+    height: 80px;
+    color: #FFFF;
+    padding: 20px 30px;
+    width: 100%;
+    font-size: 13px;
+}
+}
 @media screen and (max-width: 500px) {
     .top-text{
         display: flex;

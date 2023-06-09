@@ -25,7 +25,7 @@ const Login = ()=>{
                     <input type="password" />
                     <span className="login-eye"><BsEyeSlash/></span>
                     <a href="#">Forgot Password</a>
-                    <div className="reg-button-l"> <a>Login</a></div>
+                    <div className="reg-button" id="log-button"> <a>Login</a></div>
                 </form>
             </div>
             </div>

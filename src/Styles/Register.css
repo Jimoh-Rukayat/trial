@@ -114,6 +114,128 @@ select{
     position: relative;
     left: 75%;
 }
+@media screen and (max-width: 780px) {
+    .register-top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 50px;
+        font-family: 'Mulish';
+    }
+    .register-image{
+        width: 20%;
+        margin-left: 0px; 
+    } 
+    .register-top p{
+        width: 100%;
+        font-size: 10px;
+        font-family: 'Mulish';
+        margin-right: 20px;
+    }
+    .span-eye, .span-eyes{
+        visibility: hidden;
+    }
+    .register{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        font-family: 'Mulish';
+    }
+    .register h1{
+        width: 100%;
+        font-size: 30px;
+        color:#212529;
+        margin-top: 50px;
+     color: #00070F;
+        font: 'Mulish';
+        
+    }
+    .register-parent{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .register form{
+        width: 100%;
+        margin-top: 50px;
+        color: #00070F;
+        font: 'Mulish';
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 500px;
+        color: #00070F;
+        font: 'Mulish';
+    }
+    .names{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        color: #00070F;
+        font: 'Mulish';
+        position: relative;
+    }
+    .lastname{
+        display: flex;
+        flex-direction: column;
+        font-family: 'Mulish';
+    }
+    .lastname input{
+        width: 200%;
+        margin-top: 15px;
+    }
+    input{
+        width: 100%;
+        padding: 8px 8px;
+        margin-top: 15px;
+        border: 1px solid #e0e0e0;
+        border-radius: 4px;
+        background: #FFFFFF;
+    }
+    .reg-button{
+        width: 100%;
+        background-color: #1178FF;
+        padding: 10px;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 30px;
+        border-radius: 5px;
+        font: 'Mulish';
+        color: white;
+    }
+    label{
+        width: 200px;
+    }
+    .number input{
+       width: 68%;
+       color: rgba(0, 4, 21, 0.62);
+    }
+    select{
+        width: 32%;
+        padding: 8px;
+        color: rgba(0, 4, 21, 0.62);  
+        border: 1px solid #e0e0e0;
+        border-radius: 4px;
+        background: #FFFFFF;
+    }
+    .image1{
+        position: absolute;
+        left: 10%;
+        margin-top: 150px;
+    }
+    .image2{
+        position: relative;
+        left: 75%;
+        margin-top: 150px;
+    }
+    .register-top a{
+        color: #1178FF;
+    }
+}
 @media screen and (max-width: 500px) {
     .register-top{
         display: flex;

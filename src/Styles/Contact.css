@@ -139,6 +139,115 @@
     margin-top: 100px;
     color: #FFFF;
 }
+@media screen and (max-width: 780px) {
+    .contact-top{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        margin-top: 0px;
+    }
+    .contact{
+        width: 100%;
+        color: white;
+        padding: 50px 50px;
+        line-height: 3em;
+        background-color: #002099;
+        margin-top: 0px;
+    }
+    .contact h6{
+        font-family: 'Mulish';
+        font-size: 15px;
+    }
+    .contact h3{
+        font-family: 'Clash Display Variable';
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .contact p{
+        width: 100%;
+        line-height: normal;
+        padding-top: 20px;
+        font-family: 'Mulish';
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .contact-bottom{
+        height: 200px;
+        position: relative;
+        left: 20px;
+        right: 0px;
+        top: 50px;
+        bottom: 0px;
+        width: 92%;
+       background-color: #00070F;  
+       margin: 0px 200px 0px 0px;
+    }
+    .contact-form-name{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+         margin: 0px 250px 0px 0px;
+    }
+    .contact-us p{
+        padding-top: 10px;
+        line-height: 1.5em;
+        font-family: "Mulish";
+       color: #212529;
+       font-weight: 400;
+       width: 100%;
+    }
+    .contact-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-left: 30px;
+        font-family: "Mulish";
+       color: #212529;
+    }
+    .sub-bottom{
+        color: #FFFF;
+        padding: 30px 30px;   
+    }
+    .sub-bottom p{
+        line-height: normal;
+        padding-top: 20px;
+        width: 100%;
+        font-size: 15px;
+    }
+    .contact-form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0px;
+        margin-top: 20px;
+    }
+    #first{
+        width: 100%;
+    }
+    .first{
+        display: flex;
+        flex-direction: column;
+        line-height: 2;
+        width: 100%;
+    }
+    .first input, textarea{
+        border: none;
+        border-bottom: 1px solid #e0e0e0;
+        outline: none;
+        width: 90%;
+    }
+    .first label{
+        margin-left: 0px;
+    }
+    .footer-contact{
+        height: 550px;
+        background-color: #00070F;
+        margin-top: 100px;
+        color: #FFFF;
+    }
+}
 @media screen and (max-width: 500px) {
     .contact-top{
         width: 100%;
