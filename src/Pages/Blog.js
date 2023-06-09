@@ -27,7 +27,7 @@ const Blog = () =>{
                                 <img src={book} alt={book} />
                                 <div className='text'>
                                 <h3>Examination Preparations</h3>
-                                <p>Start your revision early. There is no substitute for starting early with <br/>revision. You need to give yourself enough time to review everything<br/> that you have studied, and make sure that.......</p>
+                                <p>Start your revision early. There is no substitute for starting early with revision. You need to give yourself enough time to review everything that you have studied, and make sure that.......</p>
                                 <button>View This Article <AiOutlineDoubleRight/></button>
                                 </div>
                             </div>
@@ -35,25 +35,7 @@ const Blog = () =>{
                                 <img src={book} alt={book} />
                                 <div className='text'>
                                 <h3>Examination Preparations</h3>
-                                <p>Start your revision early. There is no substitute for starting early with <br/>revision. You need to give yourself enough time to review everything<br/> that you have studied, and make sure that.......</p>
-                                <button>View This Article <AiOutlineDoubleRight/></button>
-                                </div>
-                            </div>
-                        </div>
-                        <div className='book-one'>
-                            <div>
-                                <img src={book} alt={book} />
-                                <div className='text'>
-                                <h3>Examination Preparations</h3>
-                                <p>Start your revision early. There is no substitute for starting early with <br/>revision. You need to give yourself enough time to review everything<br/> that you have studied, and make sure that.......</p>
-                                <button>View This Article <AiOutlineDoubleRight/></button>
-                                </div>
-                            </div>
-                            <div>
-                                <img src={book} alt={book} />
-                                <div className='text'>
-                                <h3>Examination Preparations</h3>
-                                <p>Start your revision early. There is no substitute for starting early with <br/>revision. You need to give yourself enough time to review everything<br/> that you have studied, and make sure that.......</p>
+                                <p>Start your revision early. There is no substitute for starting early with revision. You need to give yourself enough time to review everything that you have studied, and make sure that.......</p>
                                 <button>View This Article <AiOutlineDoubleRight/></button>
                                 </div>
                             </div>
@@ -63,7 +45,25 @@ const Blog = () =>{
                                 <img src={book} alt={book} />
                                 <div className='text'>
                                 <h3>Examination Preparations</h3>
-                                <p>Start your revision early. There is no substitute for starting early with <br/>revision. You need to give yourself enough time to review everything<br/> that you have studied, and make sure that.......</p>
+                                <p>Start your revision early. There is no substitute for starting early with revision. You need to give yourself enough time to review everything that you have studied, and make sure that.......</p>
+                                <button>View This Article <AiOutlineDoubleRight/></button>
+                                </div>
+                            </div>
+                            <div>
+                                <img src={book} alt={book} />
+                                <div className='text'>
+                                <h3>Examination Preparations</h3>
+                                <p>Start your revision early. There is no substitute for starting early with revision. You need to give yourself enough time to review everything that you have studied, and make sure that.......</p>
+                                <button>View This Article <AiOutlineDoubleRight/></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='book-one'>
+                            <div>
+                                <img src={book} alt={book} />
+                                <div className='text'>
+                                <h3>Examination Preparations</h3>
+                                <p>Start your revision early. There is no substitute for starting early with revision. You need to give yourself enough time to review everything that you have studied, and make sure that.......</p>
                                 <button>View This Article <AiOutlineDoubleRight/></button>
                                 </div>
                             </div>
@@ -71,7 +71,7 @@ const Blog = () =>{
                             <img src={book} alt={book} />
                                 <div className='text'>
                                 <h3>Examination Preparations</h3>
-                                <p>Start your revision early. There is no substitute for starting early with <br/>revision. You need to give yourself enough time to review everything<br/> that you have studied, and make sure that.......</p>
+                                <p>Start your revision early. There is no substitute for starting early with revision. You need to give yourself enough time to review everything that you have studied, and make sure that.......</p>
                                 <button>View This Article <AiOutlineDoubleRight/></button>
                                 </div>
                             </div>
@@ -81,7 +81,7 @@ const Blog = () =>{
                                 <img src={book} alt={book} />
                                 <div className='text'>
                                 <h3>Examination Preparations</h3>
-                                <p>Start your revision early. There is no substitute for starting early with <br/>revision. You need to give yourself enough time to review everything<br/> that you have studied, and make sure that.......</p>
+                                <p>Start your revision early. There is no substitute for starting early with revision. You need to give yourself enough time to review everything that you have studied, and make sure that.......</p>
                                 <button>View This Article <AiOutlineDoubleRight/></button>
                                 </div>
                             </div>

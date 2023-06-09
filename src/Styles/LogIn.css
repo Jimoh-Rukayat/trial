@@ -122,7 +122,8 @@
         justify-content: space-around;
     }
     .login-image{
-        width: 40%;
+         width: 30%;
+        margin-left: 8px;
     }
     .login-top p{
         margin-right: 20px;
@@ -135,7 +136,7 @@
         width: 100%;
         font-size: 40px;
         color:#212529; 
-        margin-left: 30px;
+        margin-left: 70px;
     }
     .login-form{
         width: 100%;
@@ -148,7 +149,54 @@
     .login-eye{
         position: absolute;
         top: 100px;
-        left: 350px;
+        left: 380px;
+    }
+    .image-1{
+        position: absolute;
+        left: 10%;
+        margin-top: 50px;
+    }
+    .image-2{
+        position: relative;
+        left: 75%;
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .login{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .login-image{
+         width: 30%;
+        margin-left: 0px;
+    }
+    .login-top p{
+        margin-right: 20px;
+        font-size: 10px;
+    }
+    .login-top a{
+        color: #1178FF; 
+    }
+    .login h1{
+        width: 100%;
+        font-size: 30px;
+        color:#212529; 
+        margin-left: 40px;
+    }
+    .login-form{
+        width: 100%;
+        margin-top: 100px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+    }
+    .login-eye{
+        position: absolute;
+        top: 100px;
+        left: 75%;
     }
     .image-1{
         position: absolute;

@@ -41,7 +41,7 @@ const FAQ = ()=>{
                 <div className="FAQ">
                     <h6>FAQ</h6>
                     <h3>What do people usually ask?</h3>
-                    <p>We Will Open The World Of Knowledge For You! This is the latest online <br/>examination system you will ever need!</p>
+                    <p>We Will Open The World Of Knowledge For You! This is the latest online examination system you will ever need!</p>
                 </div>
             </div>
             <div className="faq-two-grand">
@@ -109,14 +109,14 @@ const FAQ = ()=>{
                             <div>
                                 <img src={book} alt={book} className="register-book-image" />
                                 <div className='reg-text'>
-                                <p>Start your revision early. There is no substitute for starting early with <br/>revision. You need to give yourself enough time to review everything<br/> that you have studied, and make sure that.......</p>
+                                <p>Start your revision early. There is no substitute for starting early with revision. You need to give yourself enough time to review everything that you have studied, and make sure that.......</p>
                                 <button>View This Article <AiOutlineDoubleRight/></button>
                                 </div>
                             </div>
                             <div>
                                 <img src={book} alt={book} className="register-book-image"/>
                                 <div className='reg-text'>
-                                 <p>Start your revision early. There is no substitute for starting early with <br/>revision. You need to give yourself enough time to review everything<br/> that you have studied, and make sure that.......</p>
+                                 <p>Start your revision early. There is no substitute for starting early with revision. You need to give yourself enough time to review everything that you have studied, and make sure that.......</p>
                                  <button>View This Article <AiOutlineDoubleRight/></button>
                                 </div>
                             </div>

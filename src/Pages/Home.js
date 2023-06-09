@@ -42,7 +42,7 @@ const Home = ()=>{
                      <div className="utme">
                         <span><button>JAMB-UTME</button></span>
                         <span><button>WAEC-SSCE</button></span>
-                        <span><button>WAEC-GCE</button></span>
+                        <span><button>WAEC-<br/>GCE</button></span>
                      </div>
                      <div className="text-three-exam">
                         <span className="common-entrance"><button style={{width: "200px", padding: "17px", height: "60px"}}>COMMON ENTRANCE EXAM</button></span>
@@ -117,14 +117,14 @@ const Home = ()=>{
              <h1>Available on These platforms</h1>
             <div className="in-bottom-text">
                 <div className="web">
-                    <TfiWorld/>
+                    <TfiWorld className="aaa"/>
                     <div  className="text-icons">
                     <p>Web</p>
                     <a href="#">Get Started</a>
                     </div>
                 </div>
                 <div className="apple-store">
-                    <BsApple/>
+                    <BsApple className="aaa"/>
                     <div  className="text-icons">
                     <p>App Store</p>
                     <a href="#">Download Now</a>
@@ -132,21 +132,21 @@ const Home = ()=>{
                     <div className="none"></div>
                 </div>
                 <div className="play-store">
-                    <BsPlaystation/>
+                    <BsPlaystation className="aaa"/>
                     <div  className="text-icons">
                     <p>Play Store</p>
                     <a href="#">Download Now</a>
                     </div>
                 </div>
                 <div className="tele">
-                    <SiTelegram/>
+                    <SiTelegram className="aaa"/>
                     <div className="text-icons">
                         <p>Telegram</p>
                         <a href="#">Coming soon</a>
                     </div>
                 </div>
                 <div className="whatsapp">
-                    <ImWhatsapp/>
+                    <ImWhatsapp className="aaa"/>
                     <div  className="text-icons">
                         <p>WhatsApp</p>
                         <a href="#">Coming soon</a>

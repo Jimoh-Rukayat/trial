@@ -146,3 +146,78 @@
         width: 100%;
     }
 }
+@media screen and (max-width: 375px) {
+    .link{
+        display: flex;
+        flex-direction: column;
+        padding-left: 30px;
+        font-size: 20px;
+        margin-right: 50px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 50px;
+        width: 100%;
+        height: 350px;
+        background-color: #002099;
+        display: none;
+    }
+    .mobile-link{
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        margin-right: 50px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 60px;
+        width: 100%;
+        height: 350px;
+        background-color: #002099;
+        z-index: 5;
+    }
+    .icons{
+        font-size: 25px;
+        display: flex;
+        color: #2125;
+        margin-right: 20px;
+        border-bottom: 1px;
+    }
+    .register button{
+        padding: 5px 5px;
+        width: 75px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        font-size: 15px;
+        background-color: #1A7EBD;
+        color: #FFFF;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+    }
+    a{
+        color: #FFFF;
+    }
+    .nav-top{
+        height: 250px;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       align-items: start;
+       padding-left: 30px;
+       margin-top: 20px;
+    }
+    .nav-top-two{
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+       padding-left: 30px; 
+       margin-top: 25px;
+    } 
+    .nav-links{
+        border-bottom: 1px solid #2123;
+        width: 100%;
+    }
+}

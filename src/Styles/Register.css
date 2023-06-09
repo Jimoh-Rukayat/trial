@@ -115,176 +115,227 @@ select{
     left: 75%;
 }
 @media screen and (max-width: 500px) {
-    .register{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        width: 100%;
-    }
-    .register h1{
-        width: 100%;
-        font-size: 30px;
-        color:#212529;
-        margin: 0px 20px ;
-    }
     .register-image{
-        width: 40%;
-        margin-left: 0px; 
-    }
-    .register form{
-        width: 100%;
-        display: flex;
-       margin: 50px 60px;
-    }
-    .names{
-        display: flex;
-        flex-direction: column;
-        width: 65%;
-    }
-    input{
-        width: 60%;
-        padding: 8px;
-        margin-top: 15px;
-        border-radius: 10px #212529;
-    }
-    .number input{
-        width: 45%;
-     }
-     .image1{
-        position: absolute;
-        left: 10%; 
-    }
-    .image2{
-        position: relative;
-        left: 75%;
-        bottom: 10%;
-    }
-    select{
-        width: 15%;
-        padding: 8px;  
-    }
-    .reg-button{
-        width: 60%;
-        background-color: #1178FF;
-        padding: 10px;
-        font-size: 20px;
-        text-align: center;
-        margin-top: 30px;
-        border-radius: 5px;
-        outline: none;
-        border: none;
-        color: white;
-        text-align: center;
+        width: 30%;
+     margin-left: 8px;
     }
     .register-top p{
-        margin-right: 20px;
-        font-size: 10px;
+        margin-right: 25px;
+        font-size: 13px;
+        font-family: 'Mulish';
     }
     .register-top a{
         color: #1178FF;
         
     }
     .register-top{
-        width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        width: 100%;
         height: 50px;
+        font-family: 'Mulish';
+    } 
+    .register{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        font-family: 'Mulish';
+    }
+    .register h1{
+        width: 100%;
+        font-size: 30px;
+        color:#212529;
+        margin: 30px 50px;
+     color: #00070F;
+        font: 'Mulish';  
+    }
+    .register form{
+        width: 100%;
+        margin: 30px 50px;
+        color: #00070F;
+        font: 'Mulish';
+    }
+    .names{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        color: #00070F;
+        font: 'Mulish';
+        position: relative;
+    }
+    .lastname{
+        display: flex;
+        flex-direction: column;
+        font-family: 'Mulish';
+    }
+    .lastname input{
+        width: 70%;
+        margin-top: 15px;
+    }
+    input{
+        width: 70%;
+        padding: 8px 8px;
+        margin-top: 15px;
+        border: 1px solid #e0e0e0;
+        border-radius: 4px;
+        background: #FFFFFF;
+    }
+    .reg-button{
+        width: 70%;
+        background-color: #1178FF;
+        padding: 10px;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 20px;
+        border-radius: 5px;
+        font: 'Mulish';
+        color: white;
+    }
+    .number input{
+        width: 48%;
+        color: rgba(0, 4, 21, 0.62);
+     }
+     select{
+         width: 22%;
+         padding: 8px;
+         color: rgba(0, 4, 21, 0.62);  
+         border: 1px solid #e0e0e0;
+         border-radius: 4px;
+         background: #FFFFFF;
+     }
+     .image1{
+        position: absolute;
+        left: -1%;
+        margin-top: 100px;
+    }
+    .image2{
+        position: relative;
+        left: 80%;
+        margin-top: 100px;
     }
     .span-eye{
         position: absolute;
         top: 45px;
-        left: 270px;
+        left: 65%;
     }
     .span-eyes{
         position: relative;
         bottom: 25px;
-        left: 270px;
+        left: 65%;
     }
 }
-@media screen and (max-width: 700px) {
-    .register{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around; 
-    }
-    .register h1{
-        width: 100%;
-        font-size: 30px;
-        color:#212529;
-        margin: 0px  20px 20px 20px ;
-    }
+@media screen and (max-width: 375px) {
     .register-image{
-        width: 40%;
-        margin-left: 0px; 
-    }
-    .register form{
-        width: 100%;
-        display: flex;
-        margin: 50px 60px;
-    }
-    .names{
-        display: flex;
-        flex-direction: column;
-        width: 65%;
-    }
-    input{
-        width: 60%;
-        padding: 8px;
-        margin-top: 15px;
-        border-radius: 10px #212529;
-    }
-    .number input{
-        width: 45%;
-     }
-     .image1{
-        position: absolute;
-        left: 10%;
-        margin-top: 80px;
-        
-    }
-    .image2{
-        position: relative;
-        left: 70%;
-        bottom: 10%;
-        margin-top: 80px;
-    }
-    select{
-        width: 15%;
-        padding: 8px;  
-    }
-    .reg-button{
-        width: 60%;
-        background-color: #1178FF;
-        padding: 10px;
-        font-size: 20px;
-        text-align: center;
-        margin-top: 30px;
-        border-radius: 5px;
-        outline: none;
-        border: none;
-        color: white;
-        text-align: center;
+        width: 25%;
+     margin-left: 0px;
     }
     .register-top p{
-        margin-right: 20px;
+        margin-right: 10px;
         font-size: 10px;
+        font-family: 'Mulish';
     }
     .register-top a{
         color: #1178FF;
         
     }
     .register-top{
-        width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        width: 100%;
         height: 50px;
+        font-family: 'Mulish';
+    } 
+    .register{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        font-family: 'Mulish';
+    }
+    .register h1{
+        width: 100%;
+        font-size: 20px;
+        color:#212529;
+        margin: 30px 30px;
+     color: #00070F;
+        font: 'Mulish';  
+    }
+    .register form{
+        width: 100%;
+        margin: 30px 50px;
+        color: #00070F;
+        font: 'Mulish';
+    }
+    .names{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        color: #00070F;
+        font: 'Mulish';
+        position: relative;
+    }
+    .lastname{
+        display: flex;
+        flex-direction: column;
+        font-family: 'Mulish';
+    }
+    .lastname input{
+        width: 70%;
+        margin-top: 15px;
+    }
+    input{
+        width: 70%;
+        padding: 8px 8px;
+        margin-top: 15px;
+        border: 1px solid #e0e0e0;
+        border-radius: 4px;
+        background: #FFFFFF;
+    }
+    .reg-button{
+        width: 70%;
+        background-color: #1178FF;
+        padding: 10px;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 20px;
+        border-radius: 5px;
+        font: 'Mulish';
+        color: white;
+    }
+    .number input{
+        width: 48%;
+        color: rgba(0, 4, 21, 0.62);
+     }
+     select{
+         width: 22%;
+         padding: 8px;
+         color: rgba(0, 4, 21, 0.62);  
+         border: 1px solid #e0e0e0;
+         border-radius: 4px;
+         background: #FFFFFF;
+     }
+     .image1{
+        position: absolute;
+        left: 5%;
+        margin-top: 100px;
+    }
+    .image2{
+        position: relative;
+        left: 80%;
+        margin-top: 100px;
+    }
+    .span-eye{
+        position: absolute;
+        top: 45px;
+        left: 65%;
+    }
+    .span-eyes{
+        position: relative;
+        bottom: 25px;
+        left: 65%;
+    }
+    label{
+        margin-left: 30px;
     }
 }
-
-
-
-
-
