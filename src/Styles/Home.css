@@ -807,7 +807,7 @@
     }
     .home-login{
         padding: 10px 10px;
-        max-width: 30vw;
+        width: 150px;
         border-radius: 5px;
         border: 1px solid #002099;
         font-size: 13px;
